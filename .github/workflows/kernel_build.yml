@@ -21,7 +21,7 @@ jobs:
         NAME: Pyxis
       with:
         arch: arm64
-        compiler: clang/latest
+        compiler: clang/13
         defconfig: pyxis_defconfig
         image: Image.gz-dtb
 
